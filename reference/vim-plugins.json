@@ -1,0 +1,56 @@
+[
+  {
+    "name": "vim-airline",
+    "head": "b03fdc542f5155b54959102a2aecaf6c792dce01",
+    "origin": "https://github.com/vim-airline/vim-airline.git",
+    "status": ""
+  },
+  {
+    "name": "nerdtree",
+    "head": "690d061b591525890f1471c6675bcb5bdc8cdff9",
+    "origin": "https://github.com/preservim/nerdtree.git",
+    "status": ""
+  },
+  {
+    "name": "vim-snippets",
+    "head": "ededcf7581962ee616cadab360d5966f3307f11a",
+    "origin": "https://github.com/honza/vim-snippets.git",
+    "status": ""
+  },
+  {
+    "name": "fzf",
+    "head": "029b241dbb685e60bc86bb9b5abc293e5d17119c",
+    "origin": "https://github.com/junegunn/fzf.git",
+    "status": ""
+  },
+  {
+    "name": "coc.nvim",
+    "head": "c89ed8d5c393c60e0baf796f097598a8da14816d",
+    "origin": "https://github.com/neoclide/coc.nvim.git",
+    "status": ""
+  },
+  {
+    "name": "fzf.vim",
+    "head": "ddc14a6a5471147e2a38e6b32a7268282f669b0a",
+    "origin": "https://github.com/junegunn/fzf.vim.git",
+    "status": ""
+  },
+  {
+    "name": "verilog_systemverilog.vim",
+    "head": "5d1ea7c50a66a2f6c6002214344b16de02996ecc",
+    "origin": "https://github.com/vhda/verilog_systemverilog.vim.git",
+    "status": ""
+  },
+  {
+    "name": "vim-commentary",
+    "head": "64a654ef4a20db1727938338310209b6a63f60c9",
+    "origin": "https://github.com/tpope/vim-commentary.git",
+    "status": ""
+  },
+  {
+    "name": "gruvbox",
+    "head": "697c00291db857ca0af00ec154e5bd514a79191f",
+    "origin": "https://github.com/morhetz/gruvbox.git",
+    "status": ""
+  }
+]

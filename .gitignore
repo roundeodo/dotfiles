@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.vscdb*
+*.sqlite*
+auth.json
+id_rsa*
+id_ed25519*
+.env
+*.key
+*.pem

@@ -1,0 +1,7 @@
+prefix_rule(pattern=["mkdir", "-p", "/home/yong/.codex/memories/extensions/ad_hoc/notes"], decision="allow")
+prefix_rule(pattern=["make"], decision="allow")
+prefix_rule(pattern=["timeout", "8s", "make", "ARCH=native", "run"], decision="allow")
+prefix_rule(pattern=["code", "--uninstall-extension", "eirikpre.systemverilog"], decision="allow")
+prefix_rule(pattern=["curl", "-L", "https://api.github.com/repos/hudson-trading/slang-server/releases/latest"], decision="allow")
+prefix_rule(pattern=["curl", "-L", "https://github.com/hudson-trading/slang-server/releases/download/v0.2.9/slang-server-linux-x64.tar.gz", "-o", "/tmp/slang-server-linux-x64.tar.gz"], decision="allow")
+prefix_rule(pattern=["install", "-m", "755", "/tmp/slang-server-install/slang-server", "/home/yong/.local/bin/slang-server"], decision="allow")

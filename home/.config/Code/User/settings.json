@@ -1,0 +1,352 @@
+{
+    "explorer.confirmDelete": false,
+    "files.autoGuessEncoding": true,
+    "editor.minimap.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "workbench.settings.applyToAllProfiles": [],
+    "explorer.confirmDragAndDrop": false,
+    "python.analysis.autoImportCompletions": true,
+    "overleaf-workshop.overleafBaseUrl": "https://overleaf.esat.kuleuven.be",
+    "autopep8.path": [
+        "autopep8"
+    ],
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "xe->bib->xe->xe",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "latex-workshop.latex.outDir": ".output",
+            "latex-workshop.view.pdf.viewer": "tab",
+            "latex-workshop.view.pdf.external.viewer.command": "output.pdf"
+        }
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "never",
+        "source.fixAll.copilot": "never", // 显式禁用 Copilot 的保存时修复
+        "source.organizeImports": "never"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.parameterHints.enabled": true,
+    "editor.hover.enabled": "on",
+    "editor.errorSquiggles": "enabled",
+    "verilog.linting.linter": "xvlog",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.explorerKind": "external",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "editor.largeFileOptimizations": false,
+    "editor.fontSize": 18,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.unicodeHighlight.allowedLocales": {
+        "zh-hans": true
+    },
+    "remote.SSH.useExecServer": false,
+    "remote.SSH.remotePlatform": {
+        "192.168.220.128": "linux",
+        "amazone": "linux",
+        "vierre64": "linux",
+        "barnard3": "linux"
+    },
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "markdown-preview-enhanced.previewTheme": "medium.css",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[verilog]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "bmpenuelas.systemverilog-formatter-vscode"
+    },
+    "[systemverilog]": {
+        "editor.defaultFormatter": "bmpenuelas.systemverilog-formatter-vscode"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "python": false,
+        "c": false,
+        "systemverilog": false
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "workbench.colorTheme": "Quiet Light",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "foreground": "#008000",
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#efe9ff",
+        "editor.lineHighlightBorder": "#00000000",
+        "editor.selectionBackground": "#ddd2ff88",
+        "editor.inactiveSelectionBackground": "#e9e1ff66",
+        "editor.selectionHighlightBackground": "#d7c8ff55"
+    },
+    "editor.fontFamily": "'Victor Mono', 'JetBrains Mono', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "600",
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "terminal.integrated.fontFamily": "'Victor Mono', monospace",
+    "chat.tips.enabled": false,
+    "chat.agent.maxRequests": 1000,
+    "nrf-connect.enableTelemetry": true,
+    "chat.tools.urls.autoApprove": {
+        "https://code.visualstudio.com": true,
+        "https://github.com/microsoft/vscode/wiki/*": true,
+        "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite/blob/main/modeling_deepseek.py": true,
+        "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite/blob/main": true,
+        "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite/blob": true,
+        "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite": true,
+        "https://huggingface.co/deepseek-ai": true,
+        "https://huggingface.co": true,
+        "https://arxiv.org/html/2405.04434v5": true,
+        "https://arxiv.org/html": true,
+        "https://arxiv.org": true,
+        "https://github.com/wenbo-li-ee/snax_cluster": true,
+        "https://github.com/wenbo-li-ee": true,
+        "https://github.com": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee/snax_cluster/07b2352c04b8d8757041090abaa3eb8dd318b543/target/snitch_cluster/sw/snax/versacore-to/src/snax-versacore-to-lib.c": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee/snax_cluster/07b2352c04b8d8757041090abaa3eb8dd318b543/target/snitch_cluster/sw/snax/versacore-to/src": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee/snax_cluster/07b2352c04b8d8757041090abaa3eb8dd318b543/target/snitch_cluster/sw/snax/versacore-to": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee/snax_cluster/07b2352c04b8d8757041090abaa3eb8dd318b543/target/snitch_cluster/sw/snax": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee/snax_cluster/07b2352c04b8d8757041090abaa3eb8dd318b543/target/snitch_cluster/sw": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee/snax_cluster/07b2352c04b8d8757041090abaa3eb8dd318b543/target/snitch_cluster": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee/snax_cluster/07b2352c04b8d8757041090abaa3eb8dd318b543/target": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee/snax_cluster/07b2352c04b8d8757041090abaa3eb8dd318b543": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee/snax_cluster": true,
+        "https://raw.githubusercontent.com/wenbo-li-ee": true,
+        "https://raw.githubusercontent.com": true,
+        "https://*.githubusercontent.com": true
+    },
+    "python.terminal.activateEnvironment": false,
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /esat/studscratch/r1015673/Thesis/HeMAiA && podman start -ai hemaia_dev$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "podman": true,
+        "make": true,
+        "nohup": true,
+        "/^cd /esat/studscratch/r1015673/Thesis/Idea_Model && python3 analysis_v4\\.py 2>&1$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd /esat/studscratch/r1015673/Thesis/Idea_Model && python3 -c \"\nfrom config import \\*\nimport math\n\nmoe = MoELayerConfig\\(weight_dtype_bits=4, n_shared_experts=2\\)\nshapes = generate_shapes\\(512, 8\\)\n\n# 共享专家拆分, 用 \\[8,8,8\\] \n# C0 \\(gate\\) C1 \\(up\\) 并行, 然后 SwishGLU 在 C0, 最后 down 在 C2\n# C0 释放时间, C1 释放时间, C2 释放时间\n# 问题: 能不能让 C0/C1 更快释放\\? 用 \\[2,8,32\\] 对 M=128 raw cycles 相同\n\n# 关键问题: 在拆分共享方案中, 能否让 C0 和 C1 在共享完成后也做 DMA 预取\\?\n# C1 在 gate\\+up 完成后立即空闲 → 可以马上开始加载路由专家权重\n# C0 在 swishglu 完成后空闲 → 可以马上开始加载路由专家权重\n\nM = 128\nK = 2048\nN = 2816\n\n# 实际共享的 gate\\+up 并行阶段\n# gate/up DMA 并行 \\(xDMA/iDMA 各 64 B/cc\\) → max\\(gate_dma, up_dma\\)\ngate_dma = math\\.ceil\\(moe\\.shared_gate_weight_size / 64\\)\nup_dma = math\\.ceil\\(moe\\.shared_up_weight_size / 64\\)\ndma_phase = max\\(gate_dma, up_dma\\)\nprint\\(f'gate/up DMA \\(parallel\\): \\{dma_phase:,\\} cc'\\)\n\n# gate GEMM == up GEMM \\(同样维度, 同样 shape, 并行\\)\ns = shapes\\[3\\]  # \\[8,8,8\\]\nR,T,C = s\\.meshRow, s\\.tileSize, s\\.meshCol\nM_t = math\\.ceil\\(M/R\\)\nK_t = math\\.ceil\\(K/T\\)\nN_t = math\\.ceil\\(N/C\\)\ndrain = math\\.ceil\\(R\\*C\\*32/1024\\)\nraw = M_t \\* N_t \\* \\(K_t \\+ drain\\) \\+ 5\nprint\\(f'gate/up raw: \\{raw:,\\} cc \\(shape=\\{s\\}\\)'\\)\n\n# gate\\+up 并行完成时间\ngate_up_done = dma_phase \\+ raw\nprint\\(f'gate\\+up done at T=\\{gate_up_done:,\\}'\\)\nprint\\(f'  C1 空闲于 T=\\{gate_up_done:,\\}'\\)\n\n# P2P: up_result -> C0\nup_result_size = M \\* N\np2p_to_c0 = math\\.ceil\\(up_result_size / 64\\)\nprint\\(f'P2P up->C0: \\{p2p_to_c0:,\\} cc'\\)\n\n# SwishGLU on C0 \\(multiply only\\)\nmult = math\\.ceil\\(M \\* N / 128\\)\nprint\\(f'multiply: \\{mult:,\\} cc'\\)\n\nc0_free = gate_up_done \\+ p2p_to_c0 \\+ mult\nprint\\(f'C0 空闲于 T=\\{c0_free:,\\}'\\)\n\n# P2P: swishglu -> C2\np2p_to_c2 = math\\.ceil\\(M \\* N / 64\\)\nprint\\(f'P2P -> C2: \\{p2p_to_c2:,\\} cc'\\)\n\n# C2 加载 down weight \\(在 gate\\+up 并行期间就可以开始\\)\n# 但此时 xDMA/iDMA 被 gate/up 占用 → C2 等 DMA 完成\ndown_dma = math\\.ceil\\(moe\\.shared_down_weight_size / 128\\)\nprint\\(f'down DMA \\(128 B/cc\\): \\{down_dma:,\\} cc'\\)\n\n# down 权重加载可在 gate_up_done 后开始\n# 但 swishglu 结果要到 c0_free \\+ p2p_to_c2 才到\nswishglu_arrives = c0_free \\+ p2p_to_c2\n\n# down start = max\\(dma_phase \\+ down_dma, swishglu_arrives\\)  \n# 但 down DMA 在 dma_phase 之后开始 \\(DMA 通道释放\\)\ndown_dma_end = dma_phase \\+ down_dma\nprint\\(f'down DMA end: \\{down_dma_end:,\\}'\\)\nprint\\(f'swishglu arrives C2: \\{swishglu_arrives:,\\}'\\)\n\n# down GEMM\nN_down = 2816\nK_down = 2048\nM_t_d = math\\.ceil\\(M/R\\)\nK_t_d = math\\.ceil\\(N_down/T\\)\nN_t_d = math\\.ceil\\(K_down/C\\)\ndrain_d = math\\.ceil\\(R\\*C\\*32/1024\\)\nraw_d = M_t_d \\* N_t_d \\* \\(K_t_d \\+ drain_d\\) \\+ 5\nprint\\(f'down raw: \\{raw_d:,\\} cc'\\)\n\ndown_start = max\\(down_dma_end, swishglu_arrives\\)\ntotal_shared = down_start \\+ raw_d\nprint\\(f'total shared: \\{total_shared:,\\} cc'\\)\nprint\\(f'C2 空闲于 T=\\{total_shared:,\\}'\\)\n\nprint\\(\\)\nprint\\('=== 动态改进方案: 拆分共享 \\+ DMA预取 \\+ 全局带宽感知 ==='\\)\nprint\\(f'C1 空闲于 T=\\{gate_up_done:,\\} → 立即开始路由专家'\\)\nprint\\(f'C0 空闲于 T=\\{c0_free:,\\} → 立即开始路由专家'\\)\nprint\\(f'C2 空闲于 T=\\{total_shared:,\\} → 开始路由专家'\\)\n\n# 计算路由专家在 C0/C1/C2 上的时间\n# C1 从 T=1,498,117 开始, C0 从 T=1,506,565 开始\n# 它们各自独立处理路由专家, 用 DMA 预取流水线\n# C2 从 T=2,962,186 开始 \\(较晚\\)\n# 50 个活跃专家里, 最热\\(M=66\\) compute=1,091,791 cc \\[2,8,32\\]\n# 这个 compute >> DMA \\(33,792 @ 128 or 67,584 @ 64\\)\n# 所以 pipeline steady rate 由 compute 决定\n\n# 关键: 在 pipeline 中, 一个 cluster 计算现在这个专家时,\n# 它自己的 DMA 在预取下一个专家的 weight → bank conflict\\?\n# \\[2,8,32\\] \\+ DMA: 34\\+24=58 banks < 64 → 无冲突!\n# \\[8,8,8\\] \\+ DMA: 16\\+24=40 < 64 → 也无冲突!\n# 唯一有冲突的是 \\[1,8,64\\]: 65\\+24=89 > 64\n\nprint\\(\\)\nprint\\('各 cluster 的路由专家 pipeline:'\\)\nprint\\('  cluster 计算当前 expert 的同时, DMA 预取下一个 expert weight'\\)\nprint\\('  如果 compute > DMA \\(热门\\) → 不受 DMA-bound, steady=compute'\\)\nprint\\('  如果 compute < DMA \\(冷门\\) → DMA-bound, steady=DMA'\\)\nprint\\(\\)\n\n# 详细: 每个 cluster 的 pipeline steady time\nfrom analysis_v4 import expert_compute_time, dma_cycles as dma_cc\nfor m in \\[66, 25, 16, 8, 4, 1\\]:\n    for s_name, s in \\[\\('\\[2,8,32\\]', shapes\\[1\\]\\), \\('\\[8,8,8\\]', shapes\\[3\\]\\), \\('\\[1,8,64\\]', shapes\\[0\\]\\)\\]:\n        comp_clean = expert_compute_time\\(m, moe, s, False, 64\\)\n        comp_dirty = expert_compute_time\\(m, moe, s, True, 64\\)\n        dma_128 = dma_cc\\(moe\\.expert_total_weight_size, 128\\)\n        dma_64 = dma_cc\\(moe\\.expert_total_weight_size, 64\\)\n        steady_128 = max\\(dma_128, comp_dirty\\)\n        steady_64 = max\\(dma_64, comp_dirty\\)\n        bound_128 = 'D' if dma_128 > comp_dirty else 'C'\n        bound_64 = 'D' if dma_64 > comp_dirty else 'C'\n        print\\(f'  M=\\{m:3\\} \\{s_name:10\\} comp_clean=\\{comp_clean:>10,\\} comp_dirty=\\{comp_dirty:>10,\\} '\n              f'  steady@128B/cc=\\{steady_128:>10,\\}\\(\\{bound_128\\}\\) steady@64B/cc=\\{steady_64:>10,\\}\\(\\{bound_64\\}\\)'\\)\n    print\\(\\)\n\"\n$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd /esat/studscratch/r1015673/Thesis && python3 -c \"\nimport sys, os, random\nsys\\.path\\.insert\\(0, 'Idea_Model'\\)\nfrom analytical_scheduler import analytical_schedule\nfrom four_stage_scheduler import FourStageScheduler\n\ndist = \\{0: 4\\}\nc2_eid = 0\nc3_eid = -1\n\nms_anal = analytical_schedule\\(dist, c2_eid, c3_eid\\)\nms_beam, _ = FourStageScheduler\\(dist, beam_width=64, initial_cache_c2=c2_eid, initial_cache_c3=c3_eid\\)\\.run\\(\\)\nprint\\(f'beam=\\{ms_beam\\} anal=\\{ms_anal\\} ratio=\\{ms_anal/ms_beam:\\.4f\\}'\\)\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd /esat/studscratch/r1015673/Thesis && python3 - <<'EOF'\nimport sys; sys\\.path\\.insert\\(0, 'Idea_Model'\\)\nfrom four_stage_scheduler import FourStageSnap, ALL_SHAPES, bw_feasible, with_optional_s2_down_prefetch_pair, with_optional_next_s1_prefetch_pair, with_optional_s2_down_prefetch\n\n# 重现 \\[8,1\\] 的 SPLIT\\(2,6\\) 路径\ns1b = next\\(s for s in ALL_SHAPES if s\\.bw_req==64\\)\ns3b = next\\(s for s in ALL_SHAPES if s\\.bw_req==64\\)\ns1c = next\\(s for s in ALL_SHAPES if s\\.bw_req==128\\)\ns3c = next\\(s for s in ALL_SHAPES if s\\.bw_req==128\\)\n\nsna = FourStageSnap\\.from_assign\\(0, s1b, s3b, 2, 0, False, False\\)\nsnb = FourStageSnap\\.from_assign\\(0, s1b, s3b, 6, 0, False, False\\)\nsna2, snb2 = with_optional_s2_down_prefetch_pair\\(sna, s1b, snb, s1b\\)\nprint\\(f\"After SPLIT: c2\\.end=\\{sna2\\.task_end\\}, c3\\.end=\\{snb2\\.task_end\\}\"\\)\nprint\\(f\"  c3\\.s2pf_bw=\\{snb2\\.s2pf_bw\\}, c3\\.s2pf=\\[\\{getattr\\(snb2,'s2pf_start',None\\)\\},\\{getattr\\(snb2,'s2pf_end',None\\)\\}\\]\"\\)\nprint\\(f\"  c3 bw_change_pts: \\{sorted\\(snb2\\.bw_change_pts\\(\\)\\)\\}\"\\)\n\n# 模拟主循环的下一步: 注入 pf\nc2_post_pf, c3_post_pf = with_optional_next_s1_prefetch_pair\\(sna2, snb2, 1\\)\nprint\\(f\"\\\\nAfter pf inject: c2\\.pf_bw=\\{getattr\\(c2_post_pf,'pf_bw',None\\)\\}, c2\\.pf_end=\\{getattr\\(c2_post_pf,'pf_end',None\\)\\}\"\\)\nprint\\(f\"  c2 bw_change_pts: \\{sorted\\(c2_post_pf\\.bw_change_pts\\(\\)\\)\\}\"\\)\n\n# BW check: expert1 on C2 at t=67584, SHAPE_C\nprint\\(\"\\\\n=== BW checks for expert1 on C2 at t=67584 ===\"\\)\n# busy_sn_raw = snb2 \\(c3_pre, before pf injection\\)\nbusy_sn_raw = snb2  # = c3_pre\n\ntry_starts = sorted\\(t for t in \\(\\{sna2\\.task_end\\} \\| busy_sn_raw\\.bw_change_pts\\(\\)\\) if t >= sna2\\.task_end\\)\nprint\\(f\"try_starts = \\{try_starts\\}\"\\)\n\nfor t_st in try_starts:\n    for s1 in ALL_SHAPES:\n        for s3 in ALL_SHAPES:\n            try:\n                new_sn = FourStageSnap\\.from_assign\\(t_st, s1, s3, 1, 1, False, False\\)\n                new_sn_pf = with_optional_s2_down_prefetch\\(new_sn, s3, busy_sn_raw\\)\n                ok = bw_feasible\\(new_sn_pf, busy_sn_raw\\)\n                if ok:\n                    print\\(f\"  t_st=\\{t_st\\} s1=\\{s1\\.bw_req\\} s3=\\{s3\\.bw_req\\}: new_sn\\.end=\\{new_sn_pf\\.task_end\\} ok=\\{ok\\} final_end=\\{max\\(new_sn_pf\\.task_end,busy_sn_raw\\.task_end\\)\\}\"\\)\n            except Exception as e:\n                pass\nEOF$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "diffEditor.maxComputationTime": 0,
+    "markdown-preview-enhanced.codeBlockTheme": "xonokai.css",
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "BUG",
+        "HACK",
+        "NOTE"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^\\s*-|^\\s*\\*)\\s*($TAGS)",
+    "todo-tree.tree.showScanModeButton": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.highlights.defaultHighlight": {
+        "type": "text",
+        "foreground": "#4b3b73",
+        "background": "#ebe3ff",
+        "opacity": 100,
+        "icon": "check",
+        "iconColour": "#7a5bc2"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "tasklist",
+            "foreground": "#3a2a60",
+            "background": "#dcd0ff",
+            "iconColour": "#6d4fc0"
+        },
+        "FIXME": {
+            "icon": "flame",
+            "foreground": "#ffffff",
+            "background": "#c75c5c",
+            "iconColour": "#ffffff"
+        },
+        "BUG": {
+            "icon": "bug",
+            "foreground": "#ffffff",
+            "background": "#d16a6a",
+            "iconColour": "#ffffff"
+        },
+        "HACK": {
+            "icon": "tools",
+            "foreground": "#2f2f2f",
+            "background": "#ffe9b8",
+            "iconColour": "#8a6d1d"
+        },
+        "NOTE": {
+            "icon": "note",
+            "foreground": "#2b355c",
+            "background": "#d7e4ff",
+            "iconColour": "#4d67a8"
+        }
+    },
+    "remote.SSH.useFlock": false,
+    "highlight.regexes": {
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:[\\t\\f\\v ]*\\([^\\r\\n)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^\\r\\n:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\r\\n@]*?)(?= *(?:[^\\r\\n:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^\\r\\n@]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#ffcc00",
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:[\\t\\f\\v ]*\\([^\\r\\n)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^\\r\\n:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\r\\n@]*?)(?= *(?:[^\\r\\n:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^\\r\\n@]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc0000",
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|/\\*+|<!--|--|\\* @|{!|{{!--|{{!) *NOTE(?:[\\t\\f\\v ]*\\([^\\r\\n)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^\\r\\n:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\r\\n@]*?)(?= *(?:[^\\r\\n:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^\\r\\n@]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#3399ff",
+                    "backgroundColor": "#3399ff",
+                    "color": "#ffffff",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#1f6feb",
+                    "color": "#ffffff"
+                }
+            ]
+        },
+        "(\\[NOTE:?)(\\s*[^\\]\\r\\n]+\\])": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#3399ff",
+                    "backgroundColor": "#3399ff",
+                    "color": "#ffffff",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#1f6feb",
+                    "color": "#ffffff"
+                }
+            ]
+        }
+    },
+    "chat.viewSessions.orientation": "stacked",
+    "window.newWindowProfile": "默认",
+    "chat.byokUtilityModelDefault": "mainAgent",
+    "chatgpt.followUpQueueMode": "steer",
+}

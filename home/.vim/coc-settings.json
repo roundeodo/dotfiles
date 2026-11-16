@@ -1,0 +1,52 @@
+{
+    "//_comment": "--- 强行兼容模式 (禁止使用 Vim9 API) ---",
+    "coc.preferences.enableVim9": false,
+    "coc.preferences.semanticTokensHighlights": false,
+    "suggest.floatEnable": false,
+    "suggest.enablePreview": false,
+    "signature.enable": false,
+    "diagnostic.displayByAle": false,
+
+    "languageserver": {
+        "verible-verilog-ls": {
+            "command": "verible-verilog-ls",
+            "args": ["--rules_config_search"],
+            "filetypes": ["verilog", "systemverilog"],
+            "rootPatterns": [".git", "verible.filelist", "manifest.flist"]
+        }
+    },
+    "suggest.noselect": false,
+    "suggest.snippetIndicator": "►",
+    "suggest.triggerCompletionWait": 50,
+    "snippets.priority": 1000,
+    "snippets.userSnippets": {
+        "systemverilog": {
+            "module_template": {
+                "prefix": "mod",
+                "body": [
+                    "module ${1:name} (",
+                    "    input  logic        clk,",
+                    "    input  logic        rst_n,",
+                    "    $0",
+                    ");",
+                    "",
+                    "endmodule"
+                ],
+                "description": "SystemVerilog Module Template"
+            },
+            "always_ff": {
+                "prefix": "al",
+                "body": [
+                    "always_ff @(posedge clk or negedge rst_n) begin",
+                    "    if (!rst_n) begin",
+                    "        $1 <= '0;",
+                    "    end else begin",
+                    "        $1 <= $2;",
+                    "    end",
+                    "end"
+                ],
+                "description": "Always FF Block"
+            }
+        }
+    }
+}

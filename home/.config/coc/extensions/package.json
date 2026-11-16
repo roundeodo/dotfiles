@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "coc-snippets": ">=3.4.7",
+    "coc-pairs": ">=1.5.2"
+  }
+}

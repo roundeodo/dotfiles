@@ -1,0 +1,14 @@
+personality = "pragmatic"
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+service_tier = "default"
+
+[projects."/home/yong/ysyx"]
+trust_level = "trusted"
+
+[features]
+memories = true
+
+[memories]
+generate_memories = true
+use_memories = true

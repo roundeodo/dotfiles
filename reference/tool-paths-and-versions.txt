@@ -1,0 +1,209 @@
+git is /usr/bin/git
+git is /bin/git
+python3 is /usr/bin/python3
+python3 is /bin/python3
+node is /usr/bin/node
+node is /bin/node
+npm is /usr/bin/npm
+npm is /bin/npm
+gcc is /usr/bin/gcc
+gcc is /bin/gcc
+g++ is /usr/bin/g++
+g++ is /bin/g++
+make is /usr/bin/make
+make is /bin/make
+clang is /usr/bin/clang
+clang is /bin/clang
+clang-format is /usr/bin/clang-format
+clang-format is /bin/clang-format
+riscv64-linux-gnu-gcc is /usr/bin/riscv64-linux-gnu-gcc
+riscv64-linux-gnu-gcc is /bin/riscv64-linux-gnu-gcc
+verilator is /home/yong/tools/oss-cad-suite/bin/verilator
+verilator is /home/yong/tools/oss-cad-suite/bin/verilator
+verilator is /usr/local/bin/verilator
+yosys is /home/yong/tools/oss-cad-suite/bin/yosys
+yosys is /home/yong/tools/oss-cad-suite/bin/yosys
+verible-verilog-format is /usr/local/bin/verible-verilog-format
+verible-verilog-ls is /usr/local/bin/verible-verilog-ls
+slang-server is /home/yong/.local/bin/slang-server
+slang-server is /home/yong/.local/bin/slang-server
+slang-server is /home/yong/.local/bin/slang-server
+slang-server is /home/yong/.local/bin/slang-server
+java is /usr/bin/java
+java is /bin/java
+mill is /home/yong/.local/bin/mill
+mill is /home/yong/.local/bin/mill
+mill is /home/yong/.local/bin/mill
+mill is /home/yong/.local/bin/mill
+ag is /usr/bin/ag
+ag is /bin/ag
+rg is /home/yong/.vscode/extensions/openai.chatgpt-26.51021.22027-linux-x64/bin/linux-x86_64/rg
+vim is aliased to `~/Vim.AppImage'
+git version 2.34.1
+Python 3.10.12
+v20.20.2
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+riscv64-linux-gnu-gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Verilator 5.043 devel rev v5.042-244-g4080284e5
+Yosys 0.60+70 (git sha1 8101c87fa, clang++ 18.1.8 -fPIC -O3)
+Version	v0.0-4051-g9fdb4057
+Commit-Timestamp	2025-12-22T08:55:10Z
+Built	2025-12-22T08:59:31Z
+VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Dec 19 2025 01:21:39)
+Included patches: 1-1999
+Compiled by runner@runnervmdwttx
+Huge version without GUI.  Features included (+) or not (-):
++acl
++arabic
++autocmd
++autochdir
+-autoservername
+-balloon_eval
++balloon_eval_term
+-browse
+++builtin_terms
++byte_offset
++channel
++cindent
++clientserver
+-clipboard
++clipboard_provider
++cmdline_compl
++cmdline_hist
++cmdline_info
++comments
++conceal
++cryptv
++cscope
++cursorbind
++cursorshape
++dialog_con
++diff
++digraphs
+-dnd
+-ebcdic
++emacs_tags
++eval
++ex_extra
++extra_search
+-farsi
++file_in_path
++find_in_path
++float
++folding
+-footer
++fork()
++gettext
+-hangul_input
++iconv
++insert_expand
++ipv6
++job
++jumplist
++keymap
++lambda
++langmap
++libcall
++linebreak
++lispindent
++listcmds
++localmap
++lua
++menu
++mksession
++modify_fname
++mouse
+-mouseshape
++mouse_dec
+-mouse_gpm
+-mouse_jsbterm
++mouse_netterm
++mouse_sgr
+-mouse_sysmouse
++mouse_urxvt
++mouse_xterm
++multi_byte
++multi_lang
+-mzscheme
++netbeans_intg
++num64
++packages
++path_extra
++perl
++persistent_undo
++popupwin
++postscript
++printer
++profile
++python/dyn
++python3/dyn
++quickfix
++reltime
++rightleft
++ruby
++scrollbind
++signs
++smartindent
++socketserver
++sodium
++sound
++spell
++startuptime
++statusline
+-sun_workshop
++syntax
++tabpanel
++tag_binary
+-tag_old_static
+-tag_any_white
++tcl
++termguicolors
++terminal
++terminfo
++termresponse
++textobjects
++textprop
++timers
++title
+-toolbar
++user_commands
++vartabs
++vertsplit
++vim9script
++viminfo
++virtualedit
++visual
++visualextra
++vreplace
+-wayland
+-wayland_clipboard
+-wayland_focus_steal
++wildignore
++wildmenu
++windows
++writebackup
+-X11
++xattr
+-xfontset
+-xim
+-xpm
+-xsmp
+-xterm_clipboard
+-xterm_save
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+ 3rd user vimrc file: "~/.config/vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+       defaults file: "$VIMRUNTIME/defaults.vim"
+  fall-back for $VIM: "/usr/share/vim"
+Compilation: gcc-10 -c -I. -Iproto -DHAVE_CONFIG_H -Wno-deprecated-declarations -D_REENTRANT -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 
+Linking: gcc-10 -Wl,-E -L/usr/local/lib -Wl,--as-needed -o vim -lm -ltinfo -lselinux -lcanberra -lsodium -L/usr/lib -llua5.3 -Wl,-E -fstack-protector-strong -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu/perl/5.34/CORE -lperl -ldl -lm -lpthread -lcrypt -L/usr/lib/x86_64-linux-gnu -ltcl8.6 -ldl -lz -lpthread -lm -lruby-3.0 -lm -L/usr/lib 

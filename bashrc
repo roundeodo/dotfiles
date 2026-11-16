@@ -115,3 +115,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+export NEMU_HOME=/home/yong/ysyx/ysyx-workbench/nemu
+export AM_HOME=/home/yong/ysyx/ysyx-workbench/abstract-machine
+alias vim='~/Vim-v9.1.0000.glibc2.29-x86_64.AppImage'
+alias vim='~/Vim-v9.1.0000.glibc2.29-x86_64.AppImage'
+alias vim='~/Vim.AppImage'
+export NPC_HOME=/home/yong/ysyx/ysyx-workbench/npc
+export NVBOARD_HOME=/home/yong/ysyx/ysyx-workbench/nvboard
+export PATH="/home/yong/tools/oss-cad-suite/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"

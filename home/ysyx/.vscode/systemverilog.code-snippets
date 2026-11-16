@@ -1,0 +1,33 @@
+{
+  "SystemVerilog section": {
+    "scope": "systemverilog,verilog",
+    "prefix": "svsec",
+    "body": [
+      "// ${1:Section name}",
+      "",
+      "$0"
+    ],
+    "description": "Insert a concise SystemVerilog section heading"
+  },
+  "SystemVerilog TODO": {
+    "scope": "systemverilog,verilog",
+    "prefix": "svtodo",
+    "body": [
+      "// TODO(${1:ID}): ${2:Required change}.",
+      "// ${3:Constraint and completion condition}.",
+      "$0"
+    ],
+    "description": "Insert an instructional SystemVerilog TODO"
+  },
+  "SystemVerilog banner": {
+    "scope": "systemverilog,verilog",
+    "prefix": "svbanner",
+    "body": [
+      "// =============================================================================",
+      "// ${1:Section name}",
+      "// =============================================================================",
+      "$0"
+    ],
+    "description": "Insert a large SystemVerilog section banner"
+  }
+}
