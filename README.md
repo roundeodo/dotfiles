@@ -41,6 +41,12 @@ done < reference/vscode-extensions.txt
 
 ## 未公开上传的内容
 
-SSH/GPG 私钥、令牌、Cookie、登录数据库、编辑器聊天历史、在线账号配置、输入法学习历史和系统标识均不上传。新机生成 SSH 密钥后在 GitHub 重新授权，编辑器等服务重新登录。具体排除路径见 `reference/excluded-private-paths.json`。
+SSH/GPG 私钥、令牌、Cookie、登录数据库、其余编辑器聊天历史、在线账号配置、输入法学习历史和系统标识均不上传。新机生成 SSH 密钥后在 GitHub 重新授权，编辑器等服务重新登录。具体排除路径见 `reference/excluded-private-paths.json`。
 
 项目当前源码与本地历史另存于 [ysyx 的迁移分支](https://github.com/roundeodo/ysyx/tree/migration-2026-11-16)。
+
+## RV32 对话记录
+
+[RV32 对话归档](conversations/rv32/README.md)保存 `RV32` 和 `RV32 Q&A` 两段会话的逐条提问、答复和原附图，按日期分成可直接阅读的 Markdown 页面，并附压缩 JSONL 文本和校验值。它不修改新机聊天数据库；工具原始日志、系统消息、推理记录和其他会话未上传。
+
+VS Code 用户设置在 [settings.json](home/.config/Code/User/settings.json)，快捷键在 [keybindings.json](home/.config/Code/User/keybindings.json)，项目设置与格式化脚本在 [项目 .vscode](home/ysyx/.vscode)，扩展版本清单在 [vscode-extensions.txt](reference/vscode-extensions.txt)。

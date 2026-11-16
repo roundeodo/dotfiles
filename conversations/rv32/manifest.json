@@ -1,0 +1,345 @@
+{
+  "export_date": "2026-11-16",
+  "format": "user/assistant dialogue archive",
+  "sessions": [
+    {
+      "title": "RV32",
+      "session_id": "01a072c8-89a8-7710-a44d-6c5db46dcb14",
+      "source_basename": "rollout-2026-09-05T20-15-40-01a072c8-89a8-7710-a44d-6c5db46dcb14.jsonl",
+      "source_bytes": 279543009,
+      "source_sha256": "43d88c052ebae4e1297ed05d413b7265168cb8c584099a075580b756b530bcc6",
+      "source_records_parsed": 57350,
+      "first_record": "2026-09-05T18:15:40.387Z",
+      "last_record": "2026-11-07T08:37:37.679Z",
+      "completed_messages": 1853,
+      "response_messages": 1904,
+      "exported_messages": 1908,
+      "by_role": {
+        "user": 359,
+        "assistant": 1549
+      },
+      "pages": [
+        {
+          "path": "rv32/2026-09-05-01.md",
+          "messages": 80,
+          "first_message": 1,
+          "last_message": 80
+        },
+        {
+          "path": "rv32/2026-09-05-02.md",
+          "messages": 28,
+          "first_message": 81,
+          "last_message": 108
+        },
+        {
+          "path": "rv32/2026-09-06-01.md",
+          "messages": 80,
+          "first_message": 109,
+          "last_message": 188
+        },
+        {
+          "path": "rv32/2026-09-06-02.md",
+          "messages": 51,
+          "first_message": 189,
+          "last_message": 239
+        },
+        {
+          "path": "rv32/2026-09-11-01.md",
+          "messages": 34,
+          "first_message": 240,
+          "last_message": 273
+        },
+        {
+          "path": "rv32/2026-09-12-01.md",
+          "messages": 12,
+          "first_message": 274,
+          "last_message": 285
+        },
+        {
+          "path": "rv32/2026-09-15-01.md",
+          "messages": 53,
+          "first_message": 286,
+          "last_message": 338
+        },
+        {
+          "path": "rv32/2026-09-16-01.md",
+          "messages": 24,
+          "first_message": 339,
+          "last_message": 362
+        },
+        {
+          "path": "rv32/2026-09-19-01.md",
+          "messages": 80,
+          "first_message": 363,
+          "last_message": 442
+        },
+        {
+          "path": "rv32/2026-09-19-02.md",
+          "messages": 69,
+          "first_message": 443,
+          "last_message": 511
+        },
+        {
+          "path": "rv32/2026-09-20-01.md",
+          "messages": 10,
+          "first_message": 512,
+          "last_message": 521
+        },
+        {
+          "path": "rv32/2026-09-21-01.md",
+          "messages": 80,
+          "first_message": 522,
+          "last_message": 601
+        },
+        {
+          "path": "rv32/2026-09-21-02.md",
+          "messages": 73,
+          "first_message": 602,
+          "last_message": 674
+        },
+        {
+          "path": "rv32/2026-09-22-01.md",
+          "messages": 80,
+          "first_message": 675,
+          "last_message": 754
+        },
+        {
+          "path": "rv32/2026-09-22-02.md",
+          "messages": 52,
+          "first_message": 755,
+          "last_message": 806
+        },
+        {
+          "path": "rv32/2026-09-23-01.md",
+          "messages": 80,
+          "first_message": 807,
+          "last_message": 886
+        },
+        {
+          "path": "rv32/2026-09-23-02.md",
+          "messages": 12,
+          "first_message": 887,
+          "last_message": 898
+        },
+        {
+          "path": "rv32/2026-09-24-01.md",
+          "messages": 80,
+          "first_message": 899,
+          "last_message": 978
+        },
+        {
+          "path": "rv32/2026-09-24-02.md",
+          "messages": 41,
+          "first_message": 979,
+          "last_message": 1019
+        },
+        {
+          "path": "rv32/2026-09-27-01.md",
+          "messages": 24,
+          "first_message": 1020,
+          "last_message": 1043
+        },
+        {
+          "path": "rv32/2026-09-28-01.md",
+          "messages": 80,
+          "first_message": 1044,
+          "last_message": 1123
+        },
+        {
+          "path": "rv32/2026-09-28-02.md",
+          "messages": 80,
+          "first_message": 1124,
+          "last_message": 1203
+        },
+        {
+          "path": "rv32/2026-09-28-03.md",
+          "messages": 35,
+          "first_message": 1204,
+          "last_message": 1238
+        },
+        {
+          "path": "rv32/2026-09-29-01.md",
+          "messages": 55,
+          "first_message": 1239,
+          "last_message": 1293
+        },
+        {
+          "path": "rv32/2026-09-30-01.md",
+          "messages": 24,
+          "first_message": 1294,
+          "last_message": 1317
+        },
+        {
+          "path": "rv32/2026-10-01-01.md",
+          "messages": 80,
+          "first_message": 1318,
+          "last_message": 1397
+        },
+        {
+          "path": "rv32/2026-10-01-02.md",
+          "messages": 80,
+          "first_message": 1398,
+          "last_message": 1477
+        },
+        {
+          "path": "rv32/2026-10-01-03.md",
+          "messages": 57,
+          "first_message": 1478,
+          "last_message": 1534
+        },
+        {
+          "path": "rv32/2026-10-02-01.md",
+          "messages": 68,
+          "first_message": 1535,
+          "last_message": 1602
+        },
+        {
+          "path": "rv32/2026-10-04-01.md",
+          "messages": 33,
+          "first_message": 1603,
+          "last_message": 1635
+        },
+        {
+          "path": "rv32/2026-10-09-01.md",
+          "messages": 41,
+          "first_message": 1636,
+          "last_message": 1676
+        },
+        {
+          "path": "rv32/2026-10-10-01.md",
+          "messages": 51,
+          "first_message": 1677,
+          "last_message": 1727
+        },
+        {
+          "path": "rv32/2026-10-11-01.md",
+          "messages": 17,
+          "first_message": 1728,
+          "last_message": 1744
+        },
+        {
+          "path": "rv32/2026-10-12-01.md",
+          "messages": 23,
+          "first_message": 1745,
+          "last_message": 1767
+        },
+        {
+          "path": "rv32/2026-10-13-01.md",
+          "messages": 60,
+          "first_message": 1768,
+          "last_message": 1827
+        },
+        {
+          "path": "rv32/2026-10-14-01.md",
+          "messages": 42,
+          "first_message": 1828,
+          "last_message": 1869
+        },
+        {
+          "path": "rv32/2026-10-25-01.md",
+          "messages": 14,
+          "first_message": 1870,
+          "last_message": 1883
+        },
+        {
+          "path": "rv32/2026-10-26-01.md",
+          "messages": 8,
+          "first_message": 1884,
+          "last_message": 1891
+        },
+        {
+          "path": "rv32/2026-11-07-01.md",
+          "messages": 17,
+          "first_message": 1892,
+          "last_message": 1908
+        }
+      ],
+      "invalid_non_dialogue_records": [
+        {
+          "line": 27136,
+          "bytes": 3086,
+          "record_kinds": [
+            "response_item",
+            "reasoning"
+          ]
+        },
+        {
+          "line": 42307,
+          "bytes": 465,
+          "record_kinds": [
+            "event_msg",
+            "item_completed",
+            "CommandExecution"
+          ]
+        }
+      ],
+      "redactions": {
+        "private-key": 0,
+        "github-token": 0,
+        "openai-key": 0,
+        "aws-key": 0,
+        "google-key": 0,
+        "credential-url": 0,
+        "bearer-token": 0
+      },
+      "image_assets": {
+        "assets/ce997b3319dbac49.png": {
+          "sha256": "ce997b3319dbac49746e7485e8b58523331d93fca0187d43eebb3a180cd35081",
+          "bytes": 22240
+        }
+      },
+      "structured_archive": "rv32.messages.jsonl.gz"
+    },
+    {
+      "title": "RV32 Q&A",
+      "session_id": "01a0fac6-cb70-7592-ac85-0ba8d77920db",
+      "source_basename": "rollout-2026-10-02T06-02-07-01a0fac6-cb70-7592-ac85-0ba8d77920db.jsonl",
+      "source_bytes": 7768400,
+      "source_sha256": "45940f6815c8ce7444a7ac85181bb50dba41af6f2abdad9adfcab3c87258ccd9",
+      "source_records_parsed": 1274,
+      "first_record": "2026-10-02T04:02:07.426Z",
+      "last_record": "2026-10-04T00:34:20.791Z",
+      "completed_messages": 46,
+      "response_messages": 53,
+      "exported_messages": 53,
+      "by_role": {
+        "user": 18,
+        "assistant": 35
+      },
+      "pages": [
+        {
+          "path": "rv32-qa/2026-10-02-01.md",
+          "messages": 49,
+          "first_message": 1,
+          "last_message": 49
+        },
+        {
+          "path": "rv32-qa/2026-10-04-01.md",
+          "messages": 4,
+          "first_message": 50,
+          "last_message": 53
+        }
+      ],
+      "invalid_non_dialogue_records": [],
+      "redactions": {
+        "private-key": 0,
+        "github-token": 0,
+        "openai-key": 0,
+        "aws-key": 0,
+        "google-key": 0,
+        "credential-url": 0,
+        "bearer-token": 0
+      },
+      "image_assets": {},
+      "structured_archive": "rv32-qa.messages.jsonl.gz"
+    }
+  ],
+  "excluded": [
+    "system/developer messages",
+    "reasoning records",
+    "tool raw output",
+    "session state databases",
+    "credentials",
+    "other unrelated conversations"
+  ]
+}
